@@ -1,0 +1,33 @@
+
+
+
+body {
+  background-color: brown;
+}
+
+h1 {
+  color: greenyellow;
+  text-align:center;
+  font: size 300px;;
+}
+
+p {
+    color:orchid;
+  font-family: verdana;
+  font-size: 20px;
+}
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}

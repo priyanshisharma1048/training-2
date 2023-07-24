@@ -27,6 +27,25 @@
       ;
       /* Optional: Adjust the spacing between list items */
     }
+    ul.menu {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    ul.menu li:first-child {
+        margin-right: auto;
+    }
+
+    ul.menu li:last-child {
+        margin-left: auto;
+    }
+
+    .middle-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .menu li a {
       text-transform: capitalize;
@@ -106,16 +125,16 @@
 <body>
   <ul class="menu">
     <li>
-      <div class="image">
-        <img class="imagecontainer" src="static/mozilla.png" alt="paris" width="20px" height="20px">
-      </div>
+        <img class="imagecontainer" src="static/img_girl.png" alt="paris" width="20px" height="20px">
     </li>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact</a></li>
+    <div class="middle-items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </div>
     <li><button class="button"> Log in </button></li>
-  </ul>
+</ul>
   <div class="h3">
     <h3>#get you 14 days free trial</h3>
   </div>
